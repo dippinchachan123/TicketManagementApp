@@ -1,0 +1,14 @@
+.ticketViewPage{
+    background-color: #f4f5f8;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+
+    .ticketColumn{
+        display: flex;
+        flex-direction: column;
+        // row-gap: 50px;
+        margin: 0px;
+    }
+}

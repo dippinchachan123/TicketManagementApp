@@ -1,0 +1,53 @@
+.ImageContainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 190px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    width: 500px;
+    height: 200px;
+
+    .Left{
+        display: flex;
+        flex-direction: row;
+        width: 150;
+        align-items: center;
+        column-gap : 20px;
+        color: white;
+
+        .ImageCollection{
+            
+            .image1{
+                z-index: 100;
+            }
+            .image2{
+                z-index: 50;
+            }
+            .image3{
+                z-index: 40;
+            }
+            .image4{
+                z-index: 10;
+            }
+        }
+
+        .details{
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .right{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .BigError{
+            background-color: 'red';
+            width: 80px;height: 80px;
+            border: 5px red($color: #000000);
+            border-radius: 20px;
+        }
+    }
+}

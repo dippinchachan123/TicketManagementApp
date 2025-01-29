@@ -1,0 +1,27 @@
+.header{
+    background-color: #fff;
+    width: 100%;
+    z-index: 1; /* Ensure header stays above other content */
+
+    .displayOption{
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        margin: 20px;
+        margin-left: 30px;
+        padding: 5px;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        width: 100px;
+    }
+
+    button{
+        border: none; /* Disable border */
+        padding: 0; /* Remove padding */
+        background: none; /* Remove background color */
+        cursor: pointer;
+    }
+
+}
